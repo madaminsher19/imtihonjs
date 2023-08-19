@@ -1,0 +1,56 @@
+body {
+    background: #FFD845;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.form {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+.search-input {
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: larger;
+}
+.search-input:hover {
+    background: paleturquoise;
+}
+
+.search-btn {
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #fff;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+.search-btn:hover {
+    background: paleturquoise;
+}
+
+.delete-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+}
